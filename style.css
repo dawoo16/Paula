@@ -123,39 +123,47 @@
 
 /* 📱 Responsive: on phones move buttons to left side */
 @media (max-width: 768px) {
-  .top-left h1 {
-    font-size: 22px;
-  }
-
-  .top-left p {
-    font-size: 12px;
-    margin-left: 50px;
-  }
-
   .button-wrapper {
-    width: auto;
+    width: 25%;
     left: 20px;
-    right: auto;
     bottom: 40px;
-    transform: none;
     align-items: flex-start;
-    gap: 10px;
+    gap: 12px;
   }
 
   .button-wrapper a {
-    padding: 10px 20px;
-    font-size: 15px;
-  }
-
-  .button-wrapper a,
-  .button-right a {
-    font-size: 4px;
-    padding: 4px 9px;
+    font-size: 14px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
   }
 
   .button-right {
+    position: absolute;
+    bottom: 40px;
     right: 20px;
-    bottom: 20px;
+    width: 25%;
+  }
+
+  .button-right a {
+    font-size: 14px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .top-left h1 {
+    font-size: 36px;
+  }
+
+  .top-left p {
+    font-size: 18px;
+    margin-left: 60px;
   }
 }
+
   
