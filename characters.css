@@ -42,8 +42,8 @@ canvas#stars-bg {
 }
 
 .gallery-img {
-  width: 275px;
-  height: 400px;
+  max-width: 275px;
+  max-height: 400px;
   object-fit: cover;
   cursor: pointer;
   transition: transform 0.3s;
