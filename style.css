@@ -162,10 +162,6 @@
     font-size: 18px;
     margin-left: 60px;
   }
-    
-  .hero {
-    height: calc(100vh - 150px); /* skraca stronę tylko na telefonie */
-  }
 }
 
 
