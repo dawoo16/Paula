@@ -163,9 +163,8 @@
     margin-left: 60px;
   }
     
-  .bg-img {
-    object-position: center 20%; /* przesuwa obraz wyżej */
-    transform: scale(1.15); /* delikatne przybliżenie */
+  .hero {
+    height: calc(100vh - 120px); /* skraca stronę tylko na telefonie */
   }
 }
 
