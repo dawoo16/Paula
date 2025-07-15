@@ -70,6 +70,37 @@
   }
 }
 
+@media (max-width: 768px) {
+  .top-left h1 {
+    font-size: 42px;
+  }
+
+  .top-left p {
+    font-size: 22px;
+    margin-left: 100px;
+  }
+
+  .button-wrapper {
+    width: auto;
+    left: 20px;
+    transform: none;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .button-wrapper a,
+  .button-right a {
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+
+  .button-right {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
+
   .top-left {
     position: absolute;
     top: 30px;
