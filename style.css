@@ -55,6 +55,21 @@
     background-color: rgba(255, 255, 255, 0.1);
   }
 
+/* 📱 Responsive: on phones move buttons to left side */
+@media (max-width: 768px) {
+  .button-wrapper {
+    left: 20px;
+    right: auto;
+    bottom: 40px;
+    align-items: flex-start;
+  }
+
+  .button-wrapper a {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+}
+
   .top-left {
     position: absolute;
     top: 30px;
