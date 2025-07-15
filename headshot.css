@@ -43,7 +43,7 @@ body {
   
   .card {
     width: 350px;
-    height: 600px;
+    height: auto;
     overflow: hidden;
     transition: transform 0.3s ease, filter 0.3s ease;
   }
