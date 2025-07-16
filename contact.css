@@ -64,8 +64,7 @@ a:hover {
 @media (max-width: 768px) {
   .info-grid {
     flex-direction: column;
-    gap: 10px; /* mniejszy odstęp między sekcjami */
-    padding: 0 20px; /* dodaj boczny padding */
+    gap: 5px; /* mniejszy odstęp między sekcjami */
   }
 
   .left-column,
