@@ -162,12 +162,14 @@
     font-size: 18px;
     margin-left: 60px;
   }
-  .bg-img {
-    transform: scale(1.45);
-  }
   .hero {
-    height: 88vh; /* ⬅️ skracamy całą sekcję, eksperymentalnie 88% wysokości */
-  }  
+    height: 88vh; /* skracamy wysokość dla telefonu */
+  }
+
+  .bg-img {
+    object-position: center 30%; /* przesuwamy obraz lekko w górę */
+    transform: scale(1.1); /* przybliżenie tła */
+  } 
 }
 
 
