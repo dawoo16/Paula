@@ -162,6 +162,9 @@
     font-size: 18px;
     margin-left: 60px;
   }
+  .bg-img {
+    transform: scale(1.45);
+  }
 }
 
 
