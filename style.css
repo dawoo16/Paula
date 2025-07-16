@@ -165,6 +165,9 @@
   .bg-img {
     transform: scale(1.45);
   }
+  .hero {
+    height: 88vh; /* ⬅️ skracamy całą sekcję, eksperymentalnie 88% wysokości */
+  }  
 }
 
 
