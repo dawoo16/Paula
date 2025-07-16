@@ -163,10 +163,6 @@
     margin-left: 60px;
   }
     
-  .bg-img {
-    object-position: center -180%; /* przesuwamy obraz lekko w górę */
-    transform: scale(1.7); /* przybliżenie tła */
-  } 
 
 }
 
