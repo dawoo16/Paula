@@ -162,9 +162,11 @@
     font-size: 18px;
     margin-left: 60px;
   }
-  .hero {
-    height: 86vh; /* skracamy wysokość dla telefonu */
-  }
+    
+  .bg-img {
+    object-position: center -180%; /* przesuwamy obraz lekko w górę */
+    transform: scale(1.7); /* przybliżenie tła */
+  } 
 
 }
 
